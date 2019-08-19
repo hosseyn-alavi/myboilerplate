@@ -2,7 +2,7 @@ import React, { Component } from "react";
 import { Redirect } from "react-router-dom";
 //import jwt from 'jwt-decode';
 import { connect } from "react-redux";
-import { setUserRole } from "../../redux/actions/upm";
+//import { setUserRole } from "../../redux/actions/upm";
 //import Login from '../login';
 
 class Default extends Component {
@@ -44,5 +44,5 @@ class Default extends Component {
 
 export default connect(
   null,
-  { setUserRole }
+
 )(Default);

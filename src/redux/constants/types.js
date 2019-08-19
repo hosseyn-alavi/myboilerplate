@@ -7,5 +7,5 @@ export const SHOW_ALERT = "SHOW_ALERT";
 
 
 //------ModalHandlers------
-export const SET_SHOW_MINUTES_MODAL = "SET_SHOW_MINUTES_MODAL"
+export const SET_SHOW_MODAL = "SET_SHOW_MODAL"
 

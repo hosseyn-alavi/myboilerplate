@@ -28,9 +28,9 @@ export const userLogin = data => async dispatch => {
         }
       });
     }
-    dispatch({ type: Types.USER_LOGIN_RESPONSE, payload: result });
+    //dispatch({ type: Types.USER_LOGIN_RESPONSE, payload: result });
     sessionStorage.setItem("token", result.data.access_token);
-    setUserRole();
+    //setUserRole();
   } catch (error) {
     console.log(error.response);
     dispatch({

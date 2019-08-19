@@ -4,12 +4,12 @@ import Login from "../../containers/login";
 import NoramalUser from "../../containers/normalUser";
 import Default from "../../containers/default";
 import { connect } from "react-redux";
-import { setUserRole } from "../../redux/actions/upm";
+//import { setUserRole } from "../../redux/actions/upm";
 
 class Routes extends Component {
-  componentWillMount() {
-    this.props.setUserRole();
-  }
+  // componentWillMount() {
+  //   this.props.setUserRole();
+  // }
   render() {
     const { userRole } = this.props;
     return (
@@ -32,6 +32,5 @@ const mapStateToProps = ({ upm }) => ({
   userRole: upm.userRole
 });
 export default connect(
-  mapStateToProps,
-  { setUserRole }
+  mapStateToProps
 )(Routes);
