@@ -14,7 +14,7 @@ import MyFrom from "../../components/form";
 import userIcon from "../../assets/icon/Group 339.png";
 import starIcon from "../../assets/icon/Group 340.png";
 import leftArrow from "../../assets/icon/left-arrow (2).png";
-import * as Number from "../../utils/number";
+//import * as Number from "../../utils/number";
 import * as Logic from "./logic";
 import { userLogin } from "../../redux/actions/upm";
 import { connect } from "react-redux";
@@ -79,7 +79,7 @@ class Login extends Component {
                     gutterBottom
                     className={classes.title}
                   >
-                    سامانه اتوماسیون ماده {Number.number(77)}
+                   نام پروژه
                   </Typography>
                 </div>
               </Grid>
@@ -166,7 +166,7 @@ class Login extends Component {
                       <Fab
                         //Temprory
                         to="/user-submit"
-                        
+
                         disabled={isSubmitting}
                         //onClick={handleSubmit}
                         type="submit"

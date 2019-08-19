@@ -5,9 +5,7 @@ import modalsReducer from "./modals";
 
 const mainReducer = combineReducers({
   upm: upmReducer,
-
   snack: snackReducer,
-
   modals: modalsReducer
 });
 
