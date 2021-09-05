@@ -8,7 +8,7 @@
     "@material-ui/icons": "^4.2.0",
     "@material-ui/pickers": "^3.1.2",
     "@material-ui/styles": "^4.1.1",
-    "axios": "^0.19.0",
+    "axios": "^0.21.1",
     "formik": "^1.5.7",
     "jalali-moment": "^3.3.3",
     "jss": "^9.8.7",
